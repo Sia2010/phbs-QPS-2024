@@ -27,7 +27,7 @@ def main():
     # Print the results
     print("\nLast 4 Quarters of US Inflation:")
     print(inflation_data[['Inflation_Rate']])
-    file_path = os.path.join('/Users/lanyang/phbs-QPS-2024/data', 'inflation_data.csv')
+    file_path = os.path.join('data', 'inflation_data.csv')
     inflation_data.to_csv(file_path, index=True)  # 保存索引
     print(f"Inflation data saved to {file_path}")
 
