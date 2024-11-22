@@ -19,6 +19,8 @@ This script fetches the US Core CPI data from the Federal Reserve Economic Data 
     └── data/                   # Folder where results are saved
 
 ## Usage
+Change the path into PHBS-QPS-2024 Folder
+
 Run the script from the `scripts` folder to fetch data and calculate inflation rates:
 ```bash
 python scripts/fetch_us_cpi.py
